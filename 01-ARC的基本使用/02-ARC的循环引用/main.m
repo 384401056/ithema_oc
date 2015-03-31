@@ -1,6 +1,6 @@
 //
 //  main.m
-//  使用Property进行内存管理2
+//  02-ARC的循环引用
 //
 //  Created by Gaoyanbin on 15-3-31.
 //  Copyright (c) 2015年 Gaoyanbin. All rights reserved.
@@ -11,7 +11,12 @@
 int main(int argc, const char * argv[])
 {
 
-
+    @autoreleasepool {
+        
+        // insert code here...
+        NSLog(@"Hello, World!");
+        
+    }
     return 0;
 }
 

@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		255BB7871ACA4119000457AB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 255BB7861ACA4119000457AB /* Person.m */; };
+		255BB78A1ACA4481000457AB /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 255BB7891ACA4481000457AB /* Dog.m */; };
+		255BB7A61ACA4F0D000457AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E3FAD71AC9A370009F509E /* Foundation.framework */; };
+		255BB7A91ACA4F0D000457AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255BB7A81ACA4F0D000457AB /* main.m */; };
+		255BB7AD1ACA4F0D000457AB /* _2_ARC_____.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 255BB7AC1ACA4F0D000457AB /* _2_ARC_____.1 */; };
 		25E3FAD81AC9A370009F509E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E3FAD71AC9A370009F509E /* Foundation.framework */; };
 		25E3FADB1AC9A370009F509E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3FADA1AC9A370009F509E /* main.m */; };
 		25E3FADF1AC9A370009F509E /* _1_ARC_____.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25E3FADE1AC9A370009F509E /* _1_ARC_____.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		255BB7A31ACA4F0D000457AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				255BB7AD1ACA4F0D000457AB /* _2_ARC_____.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		25E3FAD21AC9A370009F509E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -26,6 +41,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		255BB7851ACA4119000457AB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		255BB7861ACA4119000457AB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		255BB7881ACA4481000457AB /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		255BB7891ACA4481000457AB /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		255BB7A51ACA4F0D000457AB /* 02-ARC的循环引用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-ARC的循环引用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255BB7A81ACA4F0D000457AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		255BB7AB1ACA4F0D000457AB /* 02-ARC的循环引用-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "02-ARC的循环引用-Prefix.pch"; sourceTree = "<group>"; };
+		255BB7AC1ACA4F0D000457AB /* _2_ARC_____.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "_2_ARC_____.1"; sourceTree = "<group>"; };
 		25E3FAD41AC9A370009F509E /* 01-ARC的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-ARC的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E3FAD71AC9A370009F509E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25E3FADA1AC9A370009F509E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,6 +57,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		255BB7A21ACA4F0D000457AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255BB7A61ACA4F0D000457AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25E3FAD11AC9A370009F509E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,10 +76,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		255BB7A71ACA4F0D000457AB /* 02-ARC的循环引用 */ = {
+			isa = PBXGroup;
+			children = (
+				255BB7A81ACA4F0D000457AB /* main.m */,
+				255BB7AC1ACA4F0D000457AB /* _2_ARC_____.1 */,
+				255BB7AA1ACA4F0D000457AB /* Supporting Files */,
+			);
+			path = "02-ARC的循环引用";
+			sourceTree = "<group>";
+		};
+		255BB7AA1ACA4F0D000457AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255BB7AB1ACA4F0D000457AB /* 02-ARC的循环引用-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		25E3FACB1AC9A370009F509E = {
 			isa = PBXGroup;
 			children = (
 				25E3FAD91AC9A370009F509E /* 01-ARC的基本使用 */,
+				255BB7A71ACA4F0D000457AB /* 02-ARC的循环引用 */,
 				25E3FAD61AC9A370009F509E /* Frameworks */,
 				25E3FAD51AC9A370009F509E /* Products */,
 			);
@@ -58,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				25E3FAD41AC9A370009F509E /* 01-ARC的基本使用 */,
+				255BB7A51ACA4F0D000457AB /* 02-ARC的循环引用 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +127,10 @@
 				25E3FADA1AC9A370009F509E /* main.m */,
 				25E3FADE1AC9A370009F509E /* _1_ARC_____.1 */,
 				25E3FADC1AC9A370009F509E /* Supporting Files */,
+				255BB7851ACA4119000457AB /* Person.h */,
+				255BB7861ACA4119000457AB /* Person.m */,
+				255BB7881ACA4481000457AB /* Dog.h */,
+				255BB7891ACA4481000457AB /* Dog.m */,
 			);
 			path = "01-ARC的基本使用";
 			sourceTree = "<group>";
@@ -91,6 +146,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		255BB7A41ACA4F0D000457AB /* 02-ARC的循环引用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255BB7B01ACA4F0D000457AB /* Build configuration list for PBXNativeTarget "02-ARC的循环引用" */;
+			buildPhases = (
+				255BB7A11ACA4F0D000457AB /* Sources */,
+				255BB7A21ACA4F0D000457AB /* Frameworks */,
+				255BB7A31ACA4F0D000457AB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-ARC的循环引用";
+			productName = "02-ARC的循环引用";
+			productReference = 255BB7A51ACA4F0D000457AB /* 02-ARC的循环引用 */;
+			productType = "com.apple.product-type.tool";
+		};
 		25E3FAD31AC9A370009F509E /* 01-ARC的基本使用 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25E3FAE21AC9A370009F509E /* Build configuration list for PBXNativeTarget "01-ARC的基本使用" */;
@@ -130,22 +202,51 @@
 			projectRoot = "";
 			targets = (
 				25E3FAD31AC9A370009F509E /* 01-ARC的基本使用 */,
+				255BB7A41ACA4F0D000457AB /* 02-ARC的循环引用 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		255BB7A11ACA4F0D000457AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255BB7A91ACA4F0D000457AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25E3FAD01AC9A370009F509E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				25E3FADB1AC9A370009F509E /* main.m in Sources */,
+				255BB7871ACA4119000457AB /* Person.m in Sources */,
+				255BB78A1ACA4481000457AB /* Dog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		255BB7AE1ACA4F0D000457AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-ARC的循环引用/02-ARC的循环引用-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		255BB7AF1ACA4F0D000457AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "02-ARC的循环引用/02-ARC的循环引用-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		25E3FAE01AC9A370009F509E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -226,6 +327,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		255BB7B01ACA4F0D000457AB /* Build configuration list for PBXNativeTarget "02-ARC的循环引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255BB7AE1ACA4F0D000457AB /* Debug */,
+				255BB7AF1ACA4F0D000457AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		25E3FACF1AC9A370009F509E /* Build configuration list for PBXProject "01-ARC的基本使用" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -242,6 +351,7 @@
 				25E3FAE41AC9A370009F509E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

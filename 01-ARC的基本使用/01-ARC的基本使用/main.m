@@ -7,16 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+#import "Dog.h"
 
 int main(int argc, const char * argv[])
 {
-
-    @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
-    }
+    Dog *d = [[Dog alloc] init];
+    Person *p = [[Person alloc] init];
+    
+    p.dog = d;
+    
+    Dog *d2 = [[Dog alloc] init];
+    
+    p.dog =  d2;
     return 0;
 }
 

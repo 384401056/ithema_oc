@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Book.h"
+
+//在.h文件中引入的其它对象要用Class
+@class Book;
 
 @interface Student : NSObject
 

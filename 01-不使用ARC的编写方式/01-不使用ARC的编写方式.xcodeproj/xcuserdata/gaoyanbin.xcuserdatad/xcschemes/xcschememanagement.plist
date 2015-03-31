@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>内存管理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>在set方法中内存管理.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>255BB78E1ACA466F000457AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>25E3FAED1AC9A5FC009F509E</key>
 		<dict>
 			<key>primary</key>
