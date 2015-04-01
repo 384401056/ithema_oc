@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'OC-01' target in the 'OC-01' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif

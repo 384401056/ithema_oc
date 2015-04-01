@@ -10,12 +10,5 @@
 
 @interface GYBViewController : UIViewController
 
-- (IBAction)ButtonClick;
-
-@property (nonatomic,weak) IBOutlet UITextField *num1;
-
-@property (nonatomic,weak) IBOutlet UITextField *num2;
-
-@property (nonatomic,weak) IBOutlet UILabel *sum;
 
 @end

@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25B813CD1ACC032B007DCE92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B813CC1ACC032B007DCE92 /* UIKit.framework */; };
+		25B813CF1ACC032B007DCE92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B813CE1ACC032B007DCE92 /* Foundation.framework */; };
+		25B813D11ACC032B007DCE92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B813D01ACC032B007DCE92 /* CoreGraphics.framework */; };
+		25B813D71ACC032B007DCE92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B813D51ACC032B007DCE92 /* InfoPlist.strings */; };
+		25B813D91ACC032B007DCE92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B813D81ACC032B007DCE92 /* main.m */; };
+		25B813DD1ACC032B007DCE92 /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B813DC1ACC032B007DCE92 /* GBAppDelegate.m */; };
+		25B813DF1ACC032B007DCE92 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B813DE1ACC032B007DCE92 /* Default.png */; };
+		25B813E11ACC032B007DCE92 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B813E01ACC032B007DCE92 /* Default@2x.png */; };
+		25B813E31ACC032B007DCE92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B813E21ACC032B007DCE92 /* Default-568h@2x.png */; };
+		25B813E61ACC032B007DCE92 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B813E41ACC032B007DCE92 /* MainStoryboard.storyboard */; };
+		25B813E91ACC032B007DCE92 /* GBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B813E81ACC032B007DCE92 /* GBViewController.m */; };
+		25B813F11ACC032B007DCE92 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B813F01ACC032B007DCE92 /* SenTestingKit.framework */; };
+		25B813F21ACC032B007DCE92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B813CC1ACC032B007DCE92 /* UIKit.framework */; };
+		25B813F31ACC032B007DCE92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B813CE1ACC032B007DCE92 /* Foundation.framework */; };
+		25B813FB1ACC032B007DCE92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B813F91ACC032B007DCE92 /* InfoPlist.strings */; };
+		25B813FE1ACC032B007DCE92 /* _3__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B813FD1ACC032B007DCE92 /* _3__________Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25B813F41ACC032B007DCE92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25B813C11ACC032B007DCE92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25B813C81ACC032B007DCE92;
+			remoteInfo = "03-通过代码来添加控件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25B813C91ACC032B007DCE92 /* 03-通过代码来添加控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03-通过代码来添加控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B813CC1ACC032B007DCE92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25B813CE1ACC032B007DCE92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25B813D01ACC032B007DCE92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25B813D41ACC032B007DCE92 /* 03-通过代码来添加控件-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03-通过代码来添加控件-Info.plist"; sourceTree = "<group>"; };
+		25B813D61ACC032B007DCE92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25B813D81ACC032B007DCE92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25B813DA1ACC032B007DCE92 /* 03-通过代码来添加控件-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "03-通过代码来添加控件-Prefix.pch"; sourceTree = "<group>"; };
+		25B813DB1ACC032B007DCE92 /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
+		25B813DC1ACC032B007DCE92 /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
+		25B813DE1ACC032B007DCE92 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25B813E01ACC032B007DCE92 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25B813E21ACC032B007DCE92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		25B813E51ACC032B007DCE92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		25B813E71ACC032B007DCE92 /* GBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBViewController.h; sourceTree = "<group>"; };
+		25B813E81ACC032B007DCE92 /* GBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBViewController.m; sourceTree = "<group>"; };
+		25B813EF1ACC032B007DCE92 /* 03-通过代码来添加控件Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03-通过代码来添加控件Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B813F01ACC032B007DCE92 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		25B813F81ACC032B007DCE92 /* 03-通过代码来添加控件Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03-通过代码来添加控件Tests-Info.plist"; sourceTree = "<group>"; };
+		25B813FA1ACC032B007DCE92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25B813FC1ACC032B007DCE92 /* _3__________Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_3__________Tests.h"; sourceTree = "<group>"; };
+		25B813FD1ACC032B007DCE92 /* _3__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3__________Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25B813C61ACC032B007DCE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B813CD1ACC032B007DCE92 /* UIKit.framework in Frameworks */,
+				25B813CF1ACC032B007DCE92 /* Foundation.framework in Frameworks */,
+				25B813D11ACC032B007DCE92 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B813EB1ACC032B007DCE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B813F11ACC032B007DCE92 /* SenTestingKit.framework in Frameworks */,
+				25B813F21ACC032B007DCE92 /* UIKit.framework in Frameworks */,
+				25B813F31ACC032B007DCE92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B813C01ACC032B007DCE92 = {
+			isa = PBXGroup;
+			children = (
+				25B813D21ACC032B007DCE92 /* 03-通过代码来添加控件 */,
+				25B813F61ACC032B007DCE92 /* 03-通过代码来添加控件Tests */,
+				25B813CB1ACC032B007DCE92 /* Frameworks */,
+				25B813CA1ACC032B007DCE92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25B813CA1ACC032B007DCE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25B813C91ACC032B007DCE92 /* 03-通过代码来添加控件.app */,
+				25B813EF1ACC032B007DCE92 /* 03-通过代码来添加控件Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25B813CB1ACC032B007DCE92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B813CC1ACC032B007DCE92 /* UIKit.framework */,
+				25B813CE1ACC032B007DCE92 /* Foundation.framework */,
+				25B813D01ACC032B007DCE92 /* CoreGraphics.framework */,
+				25B813F01ACC032B007DCE92 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25B813D21ACC032B007DCE92 /* 03-通过代码来添加控件 */ = {
+			isa = PBXGroup;
+			children = (
+				25B813DB1ACC032B007DCE92 /* GBAppDelegate.h */,
+				25B813DC1ACC032B007DCE92 /* GBAppDelegate.m */,
+				25B813E41ACC032B007DCE92 /* MainStoryboard.storyboard */,
+				25B813E71ACC032B007DCE92 /* GBViewController.h */,
+				25B813E81ACC032B007DCE92 /* GBViewController.m */,
+				25B813D31ACC032B007DCE92 /* Supporting Files */,
+			);
+			path = "03-通过代码来添加控件";
+			sourceTree = "<group>";
+		};
+		25B813D31ACC032B007DCE92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25B813D41ACC032B007DCE92 /* 03-通过代码来添加控件-Info.plist */,
+				25B813D51ACC032B007DCE92 /* InfoPlist.strings */,
+				25B813D81ACC032B007DCE92 /* main.m */,
+				25B813DA1ACC032B007DCE92 /* 03-通过代码来添加控件-Prefix.pch */,
+				25B813DE1ACC032B007DCE92 /* Default.png */,
+				25B813E01ACC032B007DCE92 /* Default@2x.png */,
+				25B813E21ACC032B007DCE92 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25B813F61ACC032B007DCE92 /* 03-通过代码来添加控件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25B813FC1ACC032B007DCE92 /* _3__________Tests.h */,
+				25B813FD1ACC032B007DCE92 /* _3__________Tests.m */,
+				25B813F71ACC032B007DCE92 /* Supporting Files */,
+			);
+			path = "03-通过代码来添加控件Tests";
+			sourceTree = "<group>";
+		};
+		25B813F71ACC032B007DCE92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25B813F81ACC032B007DCE92 /* 03-通过代码来添加控件Tests-Info.plist */,
+				25B813F91ACC032B007DCE92 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25B813C81ACC032B007DCE92 /* 03-通过代码来添加控件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B814011ACC032B007DCE92 /* Build configuration list for PBXNativeTarget "03-通过代码来添加控件" */;
+			buildPhases = (
+				25B813C51ACC032B007DCE92 /* Sources */,
+				25B813C61ACC032B007DCE92 /* Frameworks */,
+				25B813C71ACC032B007DCE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-通过代码来添加控件";
+			productName = "03-通过代码来添加控件";
+			productReference = 25B813C91ACC032B007DCE92 /* 03-通过代码来添加控件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25B813EE1ACC032B007DCE92 /* 03-通过代码来添加控件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B814041ACC032B007DCE92 /* Build configuration list for PBXNativeTarget "03-通过代码来添加控件Tests" */;
+			buildPhases = (
+				25B813EA1ACC032B007DCE92 /* Sources */,
+				25B813EB1ACC032B007DCE92 /* Frameworks */,
+				25B813EC1ACC032B007DCE92 /* Resources */,
+				25B813ED1ACC032B007DCE92 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25B813F51ACC032B007DCE92 /* PBXTargetDependency */,
+			);
+			name = "03-通过代码来添加控件Tests";
+			productName = "03-通过代码来添加控件Tests";
+			productReference = 25B813EF1ACC032B007DCE92 /* 03-通过代码来添加控件Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25B813C11ACC032B007DCE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Gaoyanbin;
+			};
+			buildConfigurationList = 25B813C41ACC032B007DCE92 /* Build configuration list for PBXProject "03-通过代码来添加控件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25B813C01ACC032B007DCE92;
+			productRefGroup = 25B813CA1ACC032B007DCE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25B813C81ACC032B007DCE92 /* 03-通过代码来添加控件 */,
+				25B813EE1ACC032B007DCE92 /* 03-通过代码来添加控件Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25B813C71ACC032B007DCE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B813D71ACC032B007DCE92 /* InfoPlist.strings in Resources */,
+				25B813DF1ACC032B007DCE92 /* Default.png in Resources */,
+				25B813E11ACC032B007DCE92 /* Default@2x.png in Resources */,
+				25B813E31ACC032B007DCE92 /* Default-568h@2x.png in Resources */,
+				25B813E61ACC032B007DCE92 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B813EC1ACC032B007DCE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B813FB1ACC032B007DCE92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25B813ED1ACC032B007DCE92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B813C51ACC032B007DCE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B813D91ACC032B007DCE92 /* main.m in Sources */,
+				25B813DD1ACC032B007DCE92 /* GBAppDelegate.m in Sources */,
+				25B813E91ACC032B007DCE92 /* GBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B813EA1ACC032B007DCE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B813FE1ACC032B007DCE92 /* _3__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25B813F51ACC032B007DCE92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25B813C81ACC032B007DCE92 /* 03-通过代码来添加控件 */;
+			targetProxy = 25B813F41ACC032B007DCE92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25B813D51ACC032B007DCE92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B813D61ACC032B007DCE92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25B813E41ACC032B007DCE92 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B813E51ACC032B007DCE92 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		25B813F91ACC032B007DCE92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B813FA1ACC032B007DCE92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25B813FF1ACC032B007DCE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25B814001ACC032B007DCE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25B814021ACC032B007DCE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "03-通过代码来添加控件/03-通过代码来添加控件-Prefix.pch";
+				INFOPLIST_FILE = "03-通过代码来添加控件/03-通过代码来添加控件-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25B814031ACC032B007DCE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "03-通过代码来添加控件/03-通过代码来添加控件-Prefix.pch";
+				INFOPLIST_FILE = "03-通过代码来添加控件/03-通过代码来添加控件-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25B814051ACC032B007DCE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/03-通过代码来添加控件.app/03-通过代码来添加控件";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "03-通过代码来添加控件/03-通过代码来添加控件-Prefix.pch";
+				INFOPLIST_FILE = "03-通过代码来添加控件Tests/03-通过代码来添加控件Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		25B814061ACC032B007DCE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/03-通过代码来添加控件.app/03-通过代码来添加控件";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "03-通过代码来添加控件/03-通过代码来添加控件-Prefix.pch";
+				INFOPLIST_FILE = "03-通过代码来添加控件Tests/03-通过代码来添加控件Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25B813C41ACC032B007DCE92 /* Build configuration list for PBXProject "03-通过代码来添加控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B813FF1ACC032B007DCE92 /* Debug */,
+				25B814001ACC032B007DCE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B814011ACC032B007DCE92 /* Build configuration list for PBXNativeTarget "03-通过代码来添加控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B814021ACC032B007DCE92 /* Debug */,
+				25B814031ACC032B007DCE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25B814041ACC032B007DCE92 /* Build configuration list for PBXNativeTarget "03-通过代码来添加控件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B814051ACC032B007DCE92 /* Debug */,
+				25B814061ACC032B007DCE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25B813C11ACC032B007DCE92 /* Project object */;
+}

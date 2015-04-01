@@ -67,23 +67,38 @@
                                     <action selector="ButtonClick" destination="2" eventType="touchUpInside" id="2WY-fp-9Gw"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGq-8c-M48">
+                                <color key="backgroundColor" red="0.42380648310437385" green="0.72484811921329806" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7qh-r3-v6A"/>
+                                </constraints>
+                                <string key="text" base64-UTF8="YES">
+HOWKoOazleiuoeeul+WZqA
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Dgh-Q5-Gc6" firstAttribute="baseline" secondItem="n4F-k8-zaf" secondAttribute="baseline" type="default" id="0DF-ql-qPl"/>
+                            <constraint firstItem="xGq-8c-M48" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="3DX-Nv-VZw"/>
                             <constraint firstAttribute="trailing" secondItem="dtw-pS-UhZ" secondAttribute="trailing" constant="73" id="6kC-eE-JjE"/>
                             <constraint firstItem="Dgh-Q5-Gc6" firstAttribute="bottom" secondItem="n4F-k8-zaf" secondAttribute="bottom" type="default" id="GoT-jt-Swz"/>
                             <constraint firstItem="n4F-k8-zaf" firstAttribute="top" secondItem="3" secondAttribute="top" constant="74" id="Nzw-ZX-3pc"/>
                             <constraint firstItem="Oeo-Lz-CyR" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="104" id="OTB-KF-ner"/>
                             <constraint firstItem="QLK-My-DaO" firstAttribute="top" secondItem="3" secondAttribute="top" constant="136" id="Qjo-Ro-Ugx"/>
+                            <constraint firstItem="xGq-8c-M48" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="RgN-dV-H3o"/>
                             <constraint firstItem="mHS-qm-mtk" firstAttribute="baseline" secondItem="Dgh-Q5-Gc6" secondAttribute="baseline" type="default" id="SYD-ha-Dt3"/>
                             <constraint firstItem="dtw-pS-UhZ" firstAttribute="baseline" secondItem="Oeo-Lz-CyR" secondAttribute="baseline" type="default" id="YxI-ot-Pzf"/>
-                            <constraint firstItem="QLK-My-DaO" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="awO-CO-Jrv"/>
+                            <constraint firstItem="xGq-8c-M48" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="eji-Gc-iwG"/>
                             <constraint firstItem="mHS-qm-mtk" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="hbg-IA-JgT"/>
                             <constraint firstItem="n4F-k8-zaf" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="29" id="ixQ-in-roI"/>
                             <constraint firstItem="Oeo-Lz-CyR" firstAttribute="top" secondItem="3" secondAttribute="top" constant="78" id="rHQ-cN-Aew"/>
                             <constraint firstItem="mHS-qm-mtk" firstAttribute="baseline" secondItem="dtw-pS-UhZ" secondAttribute="baseline" type="default" id="tFb-H4-jsi"/>
                             <constraint firstItem="Dgh-Q5-Gc6" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="141" id="w5L-fc-Rfg"/>
+                            <constraint firstItem="QLK-My-DaO" firstAttribute="centerX" secondItem="xGq-8c-M48" secondAttribute="centerX" type="default" id="zuo-b7-hma"/>
                         </constraints>
                     </view>
                     <connections>
@@ -94,7 +109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33" y="166"/>
+            <point key="canvasLocation" x="-158" y="161"/>
         </scene>
     </scenes>
     <classes>

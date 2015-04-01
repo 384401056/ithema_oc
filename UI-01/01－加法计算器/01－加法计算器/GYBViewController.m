@@ -8,7 +8,16 @@
 
 #import "GYBViewController.h"
 
+//苹果建议把只有GYBViewController使用的属性和方法放在这个类扩展(私有扩展)中,而不是放在.h头文件中。
 @interface GYBViewController ()
+
+- (IBAction)ButtonClick;
+
+@property (nonatomic,weak) IBOutlet UITextField *num1;
+
+@property (nonatomic,weak) IBOutlet UITextField *num2;
+
+@property (nonatomic,weak) IBOutlet UILabel *sum;
 
 @end
 
