@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '04-NSString字符串写入文件' target in the '04-NSString字符串写入文件' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '05-NSString从文件读取字符串' target in the '05-NSString从文件读取字符串' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
