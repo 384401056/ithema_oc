@@ -40,7 +40,7 @@
     //4.点击计算按钮后退出键盘。
     //>1.让能叫出键盘的控件辞掉第一响应者。
 //    [self.num1 resignFirstResponder];
-//    [self.num1 resignFirstResponder];
+//    [self.num2 resignFirstResponder];
     //>2.通过View来退出键盘。
     [self.view endEditing:true];
 }

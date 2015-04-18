@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (NSStringExt)
-
+- (BOOL)myIsEqualToString:(NSString *)str;
 @end

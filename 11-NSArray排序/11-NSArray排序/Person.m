@@ -10,4 +10,20 @@
 
 @implementation Person
 
+- initWithName:(NSString *)name andAge:(int)age andYear:(NSString *)year
+{
+    if(self = [super init]){
+        
+        _name = name;
+        _age = age;
+        _year = year;
+    }
+    
+    return self;
+}
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"name=%@ age=%d year=%@",_name,_age,_year];
+}
 @end

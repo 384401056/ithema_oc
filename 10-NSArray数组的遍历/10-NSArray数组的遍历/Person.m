@@ -10,4 +10,20 @@
 
 @implementation Person
 
+- (id)initWithNmae:(NSString *)name andAge:(int)age
+{
+    //如果创建对象成功（返回id>0）
+    if(self = [super init]){
+        _name = name;
+        _age = age;
+    }
+    return self;
+}
+
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"name=%@,age=%d",_name,_age];
+}
+
 @end

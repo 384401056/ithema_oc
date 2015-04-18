@@ -10,4 +10,19 @@
 
 @implementation Student
 
+- (id)initWithName:(NSString *)name andAge:(int)age
+{
+    if(self = [super init]){
+        _name = name;
+        _age = age;
+        
+    }
+    return self;
+}
+
+ - (NSString *)description
+{
+    return [NSString stringWithFormat:@"name = %@,age = %d",_name,_age];
+}
+
 @end

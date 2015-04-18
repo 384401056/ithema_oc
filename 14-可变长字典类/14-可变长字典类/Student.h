@@ -10,4 +10,9 @@
 
 @interface Student : NSObject
 
+@property(nonatomic,strong) NSString *name;
+@property(nonatomic,assign) int age;
+
+- initWithName:(NSString *)name andAge:(int)age;
+
 @end
