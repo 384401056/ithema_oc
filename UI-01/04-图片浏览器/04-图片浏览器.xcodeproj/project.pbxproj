@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25206D291AE33BF900CE05FC /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25206D281AE33BF900CE05FC /* images.plist */; };
 		252285D31AE20DDA005489DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252285D21AE20DDA005489DF /* UIKit.framework */; };
 		252285D51AE20DDA005489DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252285D41AE20DDA005489DF /* Foundation.framework */; };
 		252285D71AE20DDA005489DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252285D61AE20DDA005489DF /* CoreGraphics.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25206D281AE33BF900CE05FC /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
 		252285CF1AE20DDA005489DF /* 04-图片浏览器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-图片浏览器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		252285D21AE20DDA005489DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		252285D41AE20DDA005489DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +145,7 @@
 				252285ED1AE20DDA005489DF /* GBViewController.h */,
 				252285EE1AE20DDA005489DF /* GBViewController.m */,
 				252285D91AE20DDA005489DF /* Supporting Files */,
+				25206D281AE33BF900CE05FC /* images.plist */,
 			);
 			path = "04-图片浏览器";
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				256BDC5E1AE2A486000A46BA /* chiniupa.png in Resources */,
 				256BDC5F1AE2A486000A46BA /* danteng.png in Resources */,
 				256BDC601AE2A486000A46BA /* wangba.png in Resources */,
+				25206D291AE33BF900CE05FC /* images.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
