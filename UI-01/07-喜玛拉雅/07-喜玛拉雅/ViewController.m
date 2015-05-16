@@ -22,10 +22,16 @@
     
     //设置滚动
     
-//    CGFloat contentW = self.lastBtn.frame.origin.y + self.lastBtn.frame.size.height + 10;
-    CGFloat contentW = CGRectGetMaxY(self.lastBtn.frame)+10;//获取某个控件的最大y值。
-    self.scrollView.contentSize = CGSizeMake(0, contentW); //设置滚动视图的内容长度。
+//    CGFloat contentH = self.lastBtn.frame.origin.y + self.lastBtn.frame.size.height + 10;
+    CGFloat contentH	 = CGRectGetMaxY(self.lastBtn.frame)+10;//获取某个控件的最大y值。
+    self.scrollView.contentSize = CGSizeMake(0, contentH); //设置滚动视图的内容长度。
+    
+    //增加额外的滚动区域。(当scrollView停住时，上下左右的留白。)
+    self.scrollView.contentInset = UIEdgeInsetsMake(54, 0, 44, 0);
+    
+    //设置滚动条的初始位置。
+    self.scrollView.contentOffset = CGPointMake(0, -54);
 }
-
+	
 
 @end
