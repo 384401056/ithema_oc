@@ -14,6 +14,7 @@
 		244D2DEA1B08AE8E00FE2752 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244D2DE91B08AE8E00FE2752 /* Images.xcassets */; };
 		244D2DED1B08AE8E00FE2752 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 244D2DEB1B08AE8E00FE2752 /* LaunchScreen.xib */; };
 		244D2DF91B08AE8E00FE2752 /* _9_UITableView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D2DF81B08AE8E00FE2752 /* _9_UITableView___Tests.m */; };
+		246A69B81B287C5100F79329 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 246A69B71B287C5100F79329 /* heros.plist */; };
 		2493CEB21B08B0DF00B5FC5D /* GBHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 2493CEB11B08B0DF00B5FC5D /* GBHero.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		244D2DF21B08AE8E00FE2752 /* 09-UITableView英雄盟Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "09-UITableView英雄盟Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		244D2DF71B08AE8E00FE2752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		244D2DF81B08AE8E00FE2752 /* _9_UITableView___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_9_UITableView___Tests.m"; sourceTree = "<group>"; };
+		246A69B71B287C5100F79329 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
 		2493CEB01B08B0DF00B5FC5D /* GBHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBHero.h; sourceTree = "<group>"; };
 		2493CEB11B08B0DF00B5FC5D /* GBHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBHero.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 		244D2DDC1B08AE8E00FE2752 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				246A69B71B287C5100F79329 /* heros.plist */,
 				2493CEB01B08B0DF00B5FC5D /* GBHero.h */,
 				2493CEB11B08B0DF00B5FC5D /* GBHero.m */,
 				244D2DDD1B08AE8E00FE2752 /* Info.plist */,
@@ -206,6 +209,7 @@
 			files = (
 				244D2DE81B08AE8E00FE2752 /* Main.storyboard in Resources */,
 				244D2DED1B08AE8E00FE2752 /* LaunchScreen.xib in Resources */,
+				246A69B81B287C5100F79329 /* heros.plist in Resources */,
 				244D2DEA1B08AE8E00FE2752 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
