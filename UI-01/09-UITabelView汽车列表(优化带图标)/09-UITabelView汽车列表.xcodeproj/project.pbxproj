@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		241F97141B0893E000057B17 /* GBCarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F97131B0893E000057B17 /* GBCarGroup.m */; };
-		241F97161B08959400057B17 /* cars_simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241F97151B08959400057B17 /* cars_simple.plist */; };
+		24E627B51B287A5700620B3C /* cars_total.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E627B41B287A5700620B3C /* cars_total.plist */; };
+		24E627B71B287A6A00620B3C /* cars_simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24E627B61B287A6A00620B3C /* cars_simple.plist */; };
 		24F3CE561B08925700A85BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F3CE551B08925700A85BA2 /* main.m */; };
 		24F3CE591B08925700A85BA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F3CE581B08925700A85BA2 /* AppDelegate.m */; };
 		24F3CE5C1B08925700A85BA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F3CE5B1B08925700A85BA2 /* ViewController.m */; };
@@ -31,7 +32,8 @@
 /* Begin PBXFileReference section */
 		241F97121B0893E000057B17 /* GBCarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBCarGroup.h; sourceTree = "<group>"; };
 		241F97131B0893E000057B17 /* GBCarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBCarGroup.m; sourceTree = "<group>"; };
-		241F97151B08959400057B17 /* cars_simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cars_simple.plist; path = "../../../../../../../Volumes/VMware Shared Folders/forMac/素材/Car/cars_simple.plist"; sourceTree = "<group>"; };
+		24E627B41B287A5700620B3C /* cars_total.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cars_total.plist; path = "../../../../../../../Volumes/VMware Shared Folders/forMac/cars_total.plist"; sourceTree = "<group>"; };
+		24E627B61B287A6A00620B3C /* cars_simple.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = cars_simple.plist; path = "../../../../../../../Volumes/VMware Shared Folders/forMac/cars_simple.plist"; sourceTree = "<group>"; };
 		24F3CE501B08925700A85BA2 /* 09-UITabelView汽车列表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09-UITabelView汽车列表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F3CE541B08925700A85BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24F3CE551B08925700A85BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,7 +103,8 @@
 		24F3CE531B08925700A85BA2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				241F97151B08959400057B17 /* cars_simple.plist */,
+				24E627B61B287A6A00620B3C /* cars_simple.plist */,
+				24E627B41B287A5700620B3C /* cars_total.plist */,
 				241F97121B0893E000057B17 /* GBCarGroup.h */,
 				241F97131B0893E000057B17 /* GBCarGroup.m */,
 				24F3CE541B08925700A85BA2 /* Info.plist */,
@@ -208,9 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				24F3CE5F1B08925700A85BA2 /* Main.storyboard in Resources */,
-				241F97161B08959400057B17 /* cars_simple.plist in Resources */,
 				24F3CE641B08925700A85BA2 /* LaunchScreen.xib in Resources */,
+				24E627B51B287A5700620B3C /* cars_total.plist in Resources */,
 				24F3CE611B08925700A85BA2 /* Images.xcassets in Resources */,
+				24E627B71B287A6A00620B3C /* cars_simple.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
