@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2413DC581B08AF91004CFA08 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2413DC571B08AF91004CFA08 /* heros.plist */; };
 		244D2DDF1B08AE8E00FE2752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D2DDE1B08AE8E00FE2752 /* main.m */; };
 		244D2DE21B08AE8E00FE2752 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D2DE11B08AE8E00FE2752 /* AppDelegate.m */; };
 		244D2DE51B08AE8E00FE2752 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244D2DE41B08AE8E00FE2752 /* ViewController.m */; };
@@ -29,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2413DC571B08AF91004CFA08 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = heros.plist; path = "../../../../../../../Volumes/VMware Shared Folders/forMac/素材/LOL/heros.plist"; sourceTree = "<group>"; };
 		244D2DD91B08AE8E00FE2752 /* 09-UITableView英雄盟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09-UITableView英雄盟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		244D2DDD1B08AE8E00FE2752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		244D2DDE1B08AE8E00FE2752 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			children = (
 				2493CEB01B08B0DF00B5FC5D /* GBHero.h */,
 				2493CEB11B08B0DF00B5FC5D /* GBHero.m */,
-				2413DC571B08AF91004CFA08 /* heros.plist */,
 				244D2DDD1B08AE8E00FE2752 /* Info.plist */,
 				244D2DDE1B08AE8E00FE2752 /* main.m */,
 			);
@@ -209,7 +206,6 @@
 			files = (
 				244D2DE81B08AE8E00FE2752 /* Main.storyboard in Resources */,
 				244D2DED1B08AE8E00FE2752 /* LaunchScreen.xib in Resources */,
-				2413DC581B08AF91004CFA08 /* heros.plist in Resources */,
 				244D2DEA1B08AE8E00FE2752 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
