@@ -46,7 +46,7 @@
     
     static NSString *Id = @"heroCell";
 
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:Id];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:Id];//根据id从池中取出cell.
 
     if(cell==nil){
 
@@ -71,14 +71,16 @@
 
 
 #pragma mark - tableview代理方法
+
 /*
- 选中cell后调用此方法
+ 点击cell后调用此方法
  */
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     int row = indexPath.row;//获取当前行号。
     GBHero *hero = self.heros[row];//通过行号取出数据。
 
+    //创建对话框。
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"修改数据" message:nil delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
     
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;//设置对话框样式。
@@ -144,7 +146,7 @@
         NSString *path = [[NSBundle mainBundle] pathForResource:@"heros.plist" ofType:nil];
         // 2.加载数组
         NSArray *dictArray = [NSArray arrayWithContentsOfFile:path];
-        // 3.将dictArray里面的所有字典转成模型对象,放到新的数组中
+        // 3.将dictArray里面的所有字典转成模型对象,放到新的数组中。此数组必须为可变数组NSMutableArray。
         NSMutableArray *herosArray = [NSMutableArray array];
         
         for (NSDictionary *dict in dictArray) {
