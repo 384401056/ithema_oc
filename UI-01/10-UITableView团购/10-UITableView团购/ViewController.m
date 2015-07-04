@@ -9,10 +9,11 @@
 #import "ViewController.h"
 #import "GBTgCell.h"
 #import "GBTg.h"
+#import "GBTgFooterView.h"
 
-@interface ViewController () <UITableViewDataSource,UITableViewDelegate>
+@interface ViewController () <UITableViewDataSource,GBTgFooterViewDelegate>
 
-@property (strong,nonatomic) NSArray *tgs;
+@property (strong,nonatomic) NSMutableArray *tgs;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
@@ -23,9 +24,17 @@
     [super viewDidLoad];
     
     self.tableView.dataSource = self;//设置数据源
-    self.tableView.delegate = self;//设置代理
     
     self.tableView.rowHeight = 80;//设置统一的行高。
+    
+    //获取tableFooterView.
+    GBTgFooterView *footerView =[GBTgFooterView footerView];
+    
+    //设置当前类为GBTgFooterView的代理对象。
+    footerView.delegate = self;
+    
+    //设置tableFooterView.
+    self.tableView.tableFooterView = footerView;
 }
 
 /*
@@ -37,7 +46,7 @@
 }
 
 
-- (NSArray *)tgs
+- (NSMutableArray *)tgs
 {
     if(_tgs == nil){
         
@@ -97,10 +106,28 @@
 //    return 60;
 //}
 
+#pragma mark GBTgFooterViewDelegate的代理方法
 
-#pragma mark tableView代理方法。
-
-
+/*
+    tgFooterView中的加载按钮被点击时执行。
+ */
+- (void)tgFooterViewDidClickedLoadingBtn:(GBTgFooterView *)tgFooterView
+{
+    //生成新数据
+    for (int i=0; i<5; i++) {
+        GBTg *tg = [[GBTg alloc] init];
+        tg.icon = [NSString stringWithFormat:@"ad_0%d",i];
+        tg.title = [NSString stringWithFormat:@"这是新加载的数据%d",i];
+        tg.price = @"99999";
+        tg.buyCount = @"8888";
+        
+        //将数据加入tableView的数组中。
+        [self.tgs addObject:tg];
+    }
+    
+    //让tableView重新加载数据。
+    [self.tableView reloadData];
+}
 
 @end
 

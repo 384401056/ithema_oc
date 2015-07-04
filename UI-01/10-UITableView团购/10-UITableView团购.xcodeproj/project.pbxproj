@@ -18,6 +18,8 @@
 		24FAC2291B477E30002A2E47 /* GBTg.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FAC2281B477E30002A2E47 /* GBTg.m */; };
 		24FAC22B1B47989C002A2E47 /* GBTgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24FAC22A1B47989C002A2E47 /* GBTgCell.xib */; };
 		24FAC22E1B47A34D002A2E47 /* GBTgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FAC22D1B47A34D002A2E47 /* GBTgCell.m */; };
+		24FAC2301B47D4F3002A2E47 /* GBTgFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24FAC22F1B47D4F3002A2E47 /* GBTgFooterView.xib */; };
+		24FAC2331B47D810002A2E47 /* GBTgFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FAC2321B47D810002A2E47 /* GBTgFooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		24FAC22A1B47989C002A2E47 /* GBTgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBTgCell.xib; sourceTree = "<group>"; };
 		24FAC22C1B47A34D002A2E47 /* GBTgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBTgCell.h; sourceTree = "<group>"; };
 		24FAC22D1B47A34D002A2E47 /* GBTgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBTgCell.m; sourceTree = "<group>"; };
+		24FAC22F1B47D4F3002A2E47 /* GBTgFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBTgFooterView.xib; sourceTree = "<group>"; };
+		24FAC2311B47D810002A2E47 /* GBTgFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBTgFooterView.h; sourceTree = "<group>"; };
+		24FAC2321B47D810002A2E47 /* GBTgFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBTgFooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,17 +96,11 @@
 		24FAC1F31B477700002A2E47 /* 10-UITableView团购 */ = {
 			isa = PBXGroup;
 			children = (
-				24FAC1F81B477700002A2E47 /* AppDelegate.h */,
-				24FAC1F91B477700002A2E47 /* AppDelegate.m */,
-				24FAC1FB1B477700002A2E47 /* ViewController.h */,
-				24FAC1FC1B477700002A2E47 /* ViewController.m */,
-				24FAC1FE1B477700002A2E47 /* Main.storyboard */,
-				24FAC2011B477700002A2E47 /* Images.xcassets */,
-				24FAC2031B477700002A2E47 /* LaunchScreen.xib */,
+				24FAC2371B47DAD6002A2E47 /* Other */,
+				24FAC2361B47DAAF002A2E47 /* Model */,
+				24FAC2351B47DA95002A2E47 /* View */,
+				24FAC2341B47DA7D002A2E47 /* Controller */,
 				24FAC1F41B477700002A2E47 /* Supporting Files */,
-				24FAC22A1B47989C002A2E47 /* GBTgCell.xib */,
-				24FAC22C1B47A34D002A2E47 /* GBTgCell.h */,
-				24FAC22D1B47A34D002A2E47 /* GBTgCell.m */,
 			);
 			path = "10-UITableView团购";
 			sourceTree = "<group>";
@@ -109,8 +108,9 @@
 		24FAC1F41B477700002A2E47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				24FAC2271B477E30002A2E47 /* GBTg.h */,
-				24FAC2281B477E30002A2E47 /* GBTg.m */,
+				24FAC1FE1B477700002A2E47 /* Main.storyboard */,
+				24FAC2011B477700002A2E47 /* Images.xcassets */,
+				24FAC2031B477700002A2E47 /* LaunchScreen.xib */,
 				24FAC2251B47775D002A2E47 /* tgs.plist */,
 				24FAC1F51B477700002A2E47 /* Info.plist */,
 				24FAC1F61B477700002A2E47 /* main.m */,
@@ -133,6 +133,46 @@
 				24FAC20F1B477700002A2E47 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24FAC2341B47DA7D002A2E47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24FAC1FB1B477700002A2E47 /* ViewController.h */,
+				24FAC1FC1B477700002A2E47 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24FAC2351B47DA95002A2E47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24FAC22A1B47989C002A2E47 /* GBTgCell.xib */,
+				24FAC22C1B47A34D002A2E47 /* GBTgCell.h */,
+				24FAC22D1B47A34D002A2E47 /* GBTgCell.m */,
+				24FAC22F1B47D4F3002A2E47 /* GBTgFooterView.xib */,
+				24FAC2311B47D810002A2E47 /* GBTgFooterView.h */,
+				24FAC2321B47D810002A2E47 /* GBTgFooterView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		24FAC2361B47DAAF002A2E47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24FAC2271B477E30002A2E47 /* GBTg.h */,
+				24FAC2281B477E30002A2E47 /* GBTg.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24FAC2371B47DAD6002A2E47 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				24FAC1F81B477700002A2E47 /* AppDelegate.h */,
+				24FAC1F91B477700002A2E47 /* AppDelegate.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +260,7 @@
 				24FAC2051B477700002A2E47 /* LaunchScreen.xib in Resources */,
 				24FAC22B1B47989C002A2E47 /* GBTgCell.xib in Resources */,
 				24FAC2021B477700002A2E47 /* Images.xcassets in Resources */,
+				24FAC2301B47D4F3002A2E47 /* GBTgFooterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +283,7 @@
 				24FAC2291B477E30002A2E47 /* GBTg.m in Sources */,
 				24FAC1FA1B477700002A2E47 /* AppDelegate.m in Sources */,
 				24FAC1F71B477700002A2E47 /* main.m in Sources */,
+				24FAC2331B47D810002A2E47 /* GBTgFooterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +476,7 @@
 				24FAC2161B477700002A2E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24FAC2171B477700002A2E47 /* Build configuration list for PBXNativeTarget "10-UITableView团购Tests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +485,7 @@
 				24FAC2191B477700002A2E47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

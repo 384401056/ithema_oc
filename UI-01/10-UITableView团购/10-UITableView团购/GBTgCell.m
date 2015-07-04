@@ -19,6 +19,19 @@
 
 @implementation GBTgCell
 
+/*
+   当一个对象从xib文件中创建初始化完毕后就会被调用。
+ */
+- (void)awakeFromNib{
+    
+}
+
+/*
+    通过代码创建初始化一个对象时才会被调用。
+ */
+//- (instancetype)init
+//    
+//
 
 + (instancetype) cellWithTableView:(UITableView *)tableView
 {
