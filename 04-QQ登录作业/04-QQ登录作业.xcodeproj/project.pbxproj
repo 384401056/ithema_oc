@@ -208,6 +208,12 @@
 				CLASSPREFIX = GB;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Gaoyanbin;
+				TargetAttributes = {
+					25567E341AE1EAFC00456EBC = {
+						DevelopmentTeam = K8T97WCSTU;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 25567E301AE1EAFC00456EBC /* Build configuration list for PBXProject "04-QQ登录作业" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,10 +388,15 @@
 		25567E6E1AE1EAFC00456EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8T97WCSTU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "04-QQ登录作业/04-QQ登录作业-Prefix.pch";
 				INFOPLIST_FILE = "04-QQ登录作业/04-QQ登录作业-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,10 +404,15 @@
 		25567E6F1AE1EAFC00456EBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8T97WCSTU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "04-QQ登录作业/04-QQ登录作业-Prefix.pch";
 				INFOPLIST_FILE = "04-QQ登录作业/04-QQ登录作业-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -454,6 +470,7 @@
 				25567E6F1AE1EAFC00456EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25567E701AE1EAFC00456EBC /* Build configuration list for PBXNativeTarget "04-QQ登录作业Tests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +479,7 @@
 				25567E721AE1EAFC00456EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
